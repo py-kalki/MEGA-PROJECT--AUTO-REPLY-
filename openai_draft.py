@@ -9,16 +9,7 @@ api_key = env_vars.get("OpenAIAPIKey")
 client = OpenAI(api_key=api_key)
 
 
-text = '''Vedansh Danot: Haaan 😂😂😂😂
-[11:25 PM, 10/28/2025] Kittu ❤️🤌🏻✨: Aree net chud gya
-[11:25 PM, 10/28/2025] Vedansh Danot: Hmm 🤧👍
-[11:26 PM, 10/28/2025] Vedansh Danot: Waiting
-[11:39 PM, 10/28/2025] Kittu ❤️🤌🏻✨: Hnn vhiii😩
-[11:40 PM, 10/28/2025] Vedansh Danot: Haan waiting ❤️
-[11:40 PM, 10/28/2025] Kittu ❤️🤌🏻✨: Yhha jaa rhe h
-[11:40 PM, 10/28/2025] Vedansh Danot: Hmm
-[11:40 PM, 10/28/2025] Kittu ❤️🤌🏻✨: Ily♥😭
-[11:40 PM, 10/28/2025] Vedansh Danot: Haan ❤️😭'''
+text = '''PUT YOUR CHAT FOR AN EXAMPLE'''
 completion = client.chat.completions.create(
     model="gpt-5-nano",
     messages=[
